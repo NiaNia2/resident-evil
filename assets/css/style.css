@@ -5,6 +5,7 @@
 
 body {
     font-family: "Roboto";
+    margin: 0;
 }
 
 nav li {
@@ -25,5 +26,32 @@ ul {
 }
 
 #banner {
-    width: 100%;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    height: 50vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.main-logo {
+    width: 50%;
+}
+
+.survivor {
+    max-width: 60%;
+    margin: 3rem auto;
+    text-align: center;
+}
+
+
+input {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5%;
 }
