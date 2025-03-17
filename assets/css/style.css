@@ -55,3 +55,24 @@ input {
     border: none;
     border-radius: 5%;
 }
+
+.news {
+    ;
+}
+
+h2 {
+    text-align: center;
+}
+
+img {
+    width: 30%;
+    height: 20%;
+}
+
+.new-monter {
+    border: 1px solid black;
+    max-width: 30%;
+    margin: 3rem auto;
+    background-color: #5A595D;
+
+}
