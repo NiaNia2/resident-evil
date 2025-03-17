@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Roboto";
+    src: url(../fonts/Roboto/static/Roboto-Regular.ttf);
+}
+
+body {
+    font-family: "Roboto";
+}
+
+nav li {
+    list-style: none;
+    font-size: medium;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+    gap: 20em;
+}
+
+ul {
+    display: flex;
+    justify-content: center
+}
