@@ -110,8 +110,12 @@ img {
     height: 10%;
 }
 
-.list li {
-    list-style: none;
+li {
     color: white;
+    list-style: none;
+}
+
+ul {
+    gap: 3px;
     font-size: small;
 }
