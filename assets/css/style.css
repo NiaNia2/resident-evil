@@ -47,6 +47,12 @@ ul {
     text-align: center;
 }
 
+.button {
+    background-color: red;
+    color: white;
+    padding: 2px;
+}
+
 input {
     background-color: red;
     color: white;
@@ -55,11 +61,12 @@ input {
 }
 
 
-.contenair {
+.card {
     width: 25%;
     background-color: #303030;
     color: white;
     padding-bottom: 5%;
+
 }
 
 img {
@@ -70,9 +77,9 @@ h2 {
     text-align: center;
 }
 
-.news {
+.cards {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .subscribe {
@@ -98,7 +105,7 @@ h2 {
     justify-content: space-between;
 }
 
-.logo {
+img {
     width: 10%;
     height: 10%;
 }
