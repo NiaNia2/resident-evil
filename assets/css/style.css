@@ -60,10 +60,15 @@ input {
     background-color: #303030;
     color: white;
     padding-bottom: 5%;
+    gap: 2px;
 }
 
 img {
     width: 100%;
+}
+
+h2 {
+    text-align: center;
 }
 
 .news {
@@ -75,12 +80,15 @@ img {
     background-color: #303030;
     color: white;
     text-align: center;
-    margin-bottom: auto;
     padding-bottom: 5%;
+    padding-top: 2%;
+    margin-top: 5%;
 }
+
 
 .email {
     background-color: white;
+    color: #303030;
 }
 
 .footer {
