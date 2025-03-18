@@ -13,7 +13,6 @@ nav li {
     font-size: medium;
 }
 
-
 a {
     text-decoration: none;
     color: black;
@@ -48,7 +47,6 @@ ul {
     text-align: center;
 }
 
-
 input {
     background-color: red;
     color: white;
@@ -56,23 +54,50 @@ input {
     border-radius: 5%;
 }
 
-.news {
-    ;
-}
 
-h2 {
-    text-align: center;
+.contenair {
+    width: 25%;
+    background-color: #303030;
+    color: white;
+    padding-bottom: 5%;
 }
 
 img {
-    width: 30%;
-    height: 20%;
+    width: 100%;
 }
 
-.new-monter {
-    border: 1px solid black;
-    max-width: 30%;
-    margin: 3rem auto;
-    background-color: #5A595D;
+.news {
+    display: flex;
+    justify-content: space-around;
+}
 
+.subscribe {
+    background-color: #303030;
+    color: white;
+    text-align: center;
+    margin-bottom: auto;
+    padding-bottom: 5%;
+}
+
+.email {
+    background-color: white;
+}
+
+.footer {
+    width: 100%;
+    background-color: black;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 10%;
+    height: 10%;
+}
+
+.list li {
+    list-style: none;
+    color: white;
+    font-size: small;
 }
